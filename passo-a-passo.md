@@ -1,5 +1,11 @@
 # Guia de instalação e configuração do projeto
-Este guia fornece um passo a passo para criar e configurar o projeto desenvolvido
+- Este guia fornece um passo a passo para criar e configurar o projeto desenvolvido
+- O projeto usa django para receber a solicitação do usuário via navegador e então chamar uma tarefa com o uso do Selenium para: 
+  - Abrir uma página específica no navegador Chrome
+  - Encontrar a tabela de livros
+  - Extrair as informações como título, autor, ano, descrição
+  - Salvar essas informações em arquivo, no formato json
+  - A url espera um parâmetro com o ano dos livros que deseja filtrar, para não filtrar informe o valor 0
 
 ## Requisitos
 
