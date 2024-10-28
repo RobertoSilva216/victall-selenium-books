@@ -206,6 +206,17 @@ python3 manage.py runserver
 
 Acesse o servidor em seu navegador pelo endereço `http://127.0.0.1:8000/`.
 
+## Passo 11: Testar
+Agora, você pode testar acessando a rota `http://127.0.0.1:8000/coletar-dados-livros/0`
+
+Se quiser filtrar o ano dos livros, troque `0` por um ano que desejar, por exemplo:
+
+`http://127.0.0.1:8000/coletar-dados-livros/1925`
+
+Isso vai filtrar e trazer somente os livros com 1925 na data de publicação
+
+Veja os arquivos gerados em `books/files`
+
 ## Conclusão
 
-Pronto! Você criou e configurou o projeto, agora faça os testes e veja os arquivos gerados em `books/files`
+Pronto! Você criou e configurou o projeto, fique a vontade para fazer melhorias.
